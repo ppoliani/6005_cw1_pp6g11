@@ -1,3 +1,13 @@
 This is the first part of the coursework for INFO6005 module, University of Southampton.
 
 It is a simple PHP application that is fetches some feed from various site and displays theie content via a web browser.
+
+Licence
+
+You may use this project under the terms of either the MIT License or the GNU General Public License (GPL) Version 2.
+The MIT License is recommended for most projects. It is simple and easy to understand and it places almost no restrictions on what you can do with this project.
+If the GPL suits your project better you are also free to use this project under that license.
+You don’t have to do anything special to choose one license or the other and you don’t have to notify anyone which license you are using. 
+You are free to use this project in commercial projects as long as the copyright header is left intact.
+
+Code Copyright Pavlos Polianidis 2011-2012
