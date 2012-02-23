@@ -1,0 +1,11 @@
+[Desktop Entry]
+
+Version=1.0
+Type=Application
+Terminal=false
+Exec=xdg-open http://localhost
+Comment[en_GB]=A simple PHP-based RSS Reader
+Name=cw1-6005-pp6g11
+Comment=A simple PHP-based RSS Reader
+Icon=/usr/share/cw1-6005-pp6g11/rssIcon.png
+Categories=Network;GTK;GNOME
