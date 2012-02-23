@@ -32,8 +32,20 @@ Examples
         to make any configurations in order to run the applicatations. The package comes with a postinst script which makes
         the configurations is needed by the apache http server in order to run a web app.
 
+MANUAL:
+You can view the manual that comes with the package by typing:
+    man pp6g11
+
+DEPENDENCIES:
+    -apache2
+    -php5
+    -libapache2-mod-php5
+    -firefox
+    -debconf
 
 Further documentation is available within the package.
+
+All the files are located in the /usr/share/cw1-6005-pp6g11/ directory.
 
 Licence
 
