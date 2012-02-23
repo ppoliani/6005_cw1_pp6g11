@@ -1,6 +1,39 @@
 This is the first part of the coursework for INFO6005 module, University of Southampton.
 
-It is a simple PHP application that is fetches some feeds from various site and displays their content via a web browser.
+It is a simple PHP rss reader. User can execute the applications both:
+    -via command line.
+    -as a web app via a web browser.
+
+INSTALL:
+
+In order to install the application you can use the Software Center applications which is provided by all linux deistributions
+or you can do it via command line
+
+Examples (instalation via command line)
+
+    -dkpg -i cw1-6005-pp6g11_1.0-1_all.deb (dependencies will not be installed)
+    -sudo dpkg -i --force-depends cw1-6005-pp6g11_1.0-1_all.deb (dependencies will be installed)
+
+EXECUTION:
+As mentioned earlier, you can execute the application either via command line or via a web browser.
+
+Examples
+
+    -via command line:
+        Type pp6g11 in command line. The script will show the rss feed from the bbc web site. You have the choice to add
+        your own URLs. In essence, the following options are available:
+        --feeds feed1, feed2, feed3
+            list of URLs
+        --items n
+            number of items to read
+    -via browser:
+        The application has got a launcher, which you can find under the "Internet Apps" section in any linux distribution.
+        You will see an icon named "cw1-6005-pp6g11". The launcer will open a browser and run the application. You don't have
+        to make any configurations in order to run the applicatations. The package comes with a postinst script which makes
+        the configurations is needed by the apache http server in order to run a web app.
+
+
+Further documentation is available within the package.
 
 Licence
 
