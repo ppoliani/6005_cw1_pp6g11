@@ -1,0 +1,8 @@
+#!/bin/bash
+# script for cw1-6005-pp6g11
+
+
+# summary of how this script can be called:
+
+php /usr/share/cw1-6005-pp6g11/index.php $@
+
